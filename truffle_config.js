@@ -25,7 +25,7 @@ module.exports = {
     ethTestnet: {
       provider: () => new HDWalletProvider(
         mnemonic, 
-        'Infura Rinkeby url';
+        'https://ropsten.etherscan.io/tx/0x8fbef51f7870256788806f32a801267020b89e6bff95b3c389d4cf79d2ce2ca8';
         0,
         1
       ),
