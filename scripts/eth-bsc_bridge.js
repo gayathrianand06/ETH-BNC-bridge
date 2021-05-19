@@ -2,7 +2,7 @@ const Web3 = require('web3');
 const BridgeEth = require('../build/contracts/bridgeeth.json');
 const BridgeBsc = require('../build/contracts/bridgebsc.json');
 
-const web3Eth = new Web3('Infura Rinkeby  url');
+const web3Eth = new Web3('https://ropsten.etherscan.io/tx/0x8fbef51f7870256788806f32a801267020b89e6bff95b3c389d4cf79d2ce2ca8');
 const web3Bsc = new Web3('https://data-seed-prebsc-1-s1.binance.org:8545');
 const adminPrivKey = '';
 const { address: admin } = web3Bsc.eth.accounts.wallet.add(adminPrivKey);
